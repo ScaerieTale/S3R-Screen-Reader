@@ -7,8 +7,27 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Some Text Here.</p>
-    <button class="btn" title="Click to hear text spoken." >Speak!</button>
+    <h1 class="center">S4: the Super Simple Screen Reader</h1>
+    <br />
+        <div>
+            <label
+            for="textInput">
+            Enter your text in the field, then click 'Speak!'</label>
+            <br />
+            <br />
+            <textarea
+            cols="48" rows="12"
+            id="textInput"
+            class="textInput"
+            placeholder="Enter your text here then click 'Speak!'"
+            title="Enter your text here then click 'Speak!"
+            ></textarea>
+            <button 
+            class="btn" 
+            title="Click to hear text spoken."
+            onclick="Speak()">
+            Speak!
+        </button>
+    </div>
 </body>
 </html>

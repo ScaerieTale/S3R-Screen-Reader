@@ -1,11 +1,23 @@
-html {
+body {
+    padding-top: 3.21rem;
     background-color: #115;
     color: antiquewhite;
     font-size: 1.5rem;
 }
-
-.form {
+div {
+    margin: auto;
+    width: 66%;
+    padding-top: 1.35rem;
+}
+.center {
+    margin: auto;
+    width: 50%;
+}
+#textInput, .textInput {
     background: black ;
+    color: antiquewhite;
+    font-size: 1.33rem;
+    margin: 1.11rem;
 }
 
 .btn {
