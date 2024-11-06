@@ -1,6 +1,8 @@
 function Speak() {
-    // Get text from textInput and
-    //log it to the console for testing
-    let input = document.getElementById("textInput").value;
-    console.log(input);
+    const input = new SpeechSynthesisUtterance(document.getElementById("textInput").value);
+    speechSynthesis.speak(input);
 }
+/* TODO:
+    Add voice options
+    Add voice speed
+    Add voice pitch */
