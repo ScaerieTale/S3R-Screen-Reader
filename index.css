@@ -26,3 +26,14 @@ div {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+footer {
+    font-size: 1rem;
+    margin: auto;
+    width: 60%;
+    padding: 2em;
+}
+
+a {
+    color: #9af;
+}
