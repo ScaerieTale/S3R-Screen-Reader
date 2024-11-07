@@ -24,5 +24,8 @@ PLEASE NOTE: As this script and web page are hosted on github pages, I have no c
 Q: Is this open source?
 A: YES.  It's a simple javascript function that calls an existing API available in most, if not all modern browsers.  I've got no reason to keep it to myself <3  If you want to use this code, please feel free.  I'll be happy you found it useful! ☺
 
+Q: Do you accept code contribution?
+A: No, sorry!  This is a side/pet project of mine, but if you want to fork it and add to it, please feel free!
+
 ## Find this useful and want to support me?
-Absolutely NOT necessary, but if you find my stuff useful I have a kofi at https://www.ko-fi.com/ScaerieTale and a *very old* PayPal URL, https://paypal.me/CrystalMystical
+I don't have a sponsorship thing set up (yet) as I'm focusing on just getting this thing working.  And support is absolutely NOT required, but if you find my stuff useful I have a ko-fi at https://www.ko-fi.com/ScaerieTale and a *very old* PayPal URL, https://paypal.me/CrystalMystical that links to my ScaerietaleProductions PayPal account.
