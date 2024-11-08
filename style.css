@@ -1,0 +1,7 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+html, body {
+    background: black;
+    color: antiqueWhite;
+    padding: 1.3%;
+}
