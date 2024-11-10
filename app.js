@@ -36,19 +36,3 @@ function populateVoiceList() {
 
 
 
-/* let voiceArray = [];
-
-const getVoices = () => {
-    voiceArray = synth.getVoices();
-    voiceArray.forEach(voice => {
-        const option = CSSLayerStatement();
-        option.textContent = voice.name + '(' + voice.lang + ')';
-    })
-    
-}
-
-getVoices();
-if (synth.onvoiceschanged != undefined) {
-    synth.onvoiceschanged = getVoices();
-}
-*/
