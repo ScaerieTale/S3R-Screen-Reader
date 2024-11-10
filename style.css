@@ -12,3 +12,7 @@ footer {
     font-style: italic;
     margin-left: 19.99%;
 }
+
+.custom-range {
+    accent-color: #392;
+}
