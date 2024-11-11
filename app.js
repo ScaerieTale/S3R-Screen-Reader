@@ -47,17 +47,11 @@ function Speak() {
         return;
     }
     // voice selection
-    let selectedVoice = voiceSelect.selectedVoice[0].getAttribute('data-name'); 
-    // Run a loop to ensure the correct voice is selected
-    voices.forEach(voice => {
-        if (voice.name == selectedVoice) {
-            spokenText.voice = voice;
-        }
-    })
+    
     
     // Only run if text input box is NOT empty.
     if (text.value != '') {
-        let spokenText = new SpeechSynthesisUtterance(text.value);
-        synth.speak(spokenText);
+        let speakText = new SpeechSynthesisUtterance(text.value);
+        synth.speak(speakText);
     } 
 }
