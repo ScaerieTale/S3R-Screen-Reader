@@ -34,5 +34,20 @@ function populateVoiceList() {
     speechSynthesis.onvoiceschanged = populateVoiceList;
   }
 
+// Speech action
 
+function Speak() {
+    if (synth.speaking) {
+        synth.pause();
+        return;
+    }
+    else if (synth.paused) {
+        synth.resume();
+        return;
+    }
 
+    if (text.value != '') {
+        let spokenText = new SpeechSynthesisUtterance(text.value);
+        synth.speak(spokenText);
+    }
+}
