@@ -15,64 +15,50 @@
     alt="S3r logo image depicting the words 'Super Simple Screen Reader' in green raised 3D effect, above a green wave form graphic on a black background." />
     <div class="row">
         <div class="col-md-6 mx-auto">
-            <form>
-                <div class="form-group">
-                    <textarea 
-                    name="textInput" 
-                    id="textInput" 
-                    class="bg-black text-white form-control form-control-lg"
-                    rows="6"
-                    placeholder="Enter your text here."></textarea>
-                </div>
-                
-                <div class="form-group">
-                    <label for="rate">Voice Speed</label>
-                    <div class ="badge badge-priamryu float-right"id="rate-value">1</div>
-                    <input 
-                    type="range" 
-                    name="rate" 
-                    id="rate" 
-                    class="custom-range" 
-                    min="0.5"
-                    max="2" 
-                    value="1"
-                    step="0.1" />
-                </div>
-                <div class="form-group">
-                    <label for="pitch">Voice Pitch</label>
-                    <div class ="badge badge-priamryu float-right"id="pitch-value">1</div>
-                    <input 
-                    type="range" 
-                    name="pitch" 
-                    id="pitch" 
-                    class="custom-range" 
-                    min="0.0"
-                    max="2" 
-                    value="1"
-                    step="0.1" />
-                </div>
-                <div class="form-group">
-                    <select 
-                    class="form-control bg-black text-white"
-                    name="voices" 
-                    id="voices">
-                
-                </select>
-
-                <button class="btn btn-dark" id="btn">Speak!</button>
-                </div>
-            </form>
+          <form class="mb-5">
+            <div class="form-group">
+              <textarea name="" id="text-input" class="form-control form-control-lg bg-dark text-white" placeholder="Type anything..."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="rate">Rate</label>
+              <div 
+              id="rate-value" 
+              class="badge badge-primary float-right"></div>
+              <input 
+              type="range" 
+              id="rate" 
+              class="custom-range" 
+              min="-5" max="5" value="1" step="0.1">
+            </div>
+            <div class="form-group">
+              <label for="pitch">Pitch</label>
+              <div 
+              id="pitch-value" 
+              class="badge badge-primary float-right"></div>
+              <input 
+              type="range" 
+              id="pitch" 
+              class="custom-range" min="-5" max="5" 
+              value="1" step="0.1">
+            </div>
+            <div class="form-group">
+              <select id="voice-select" class="form-control form-control-lg bg-dark text-white"></select>
+            </div>
+            <button class="btn btn-dark btn-lg">Speak!</button>
+          </form>
+           
         </div>
+      </div>
     </div>
-</div>
+  
 <hr />
 <footer id="footer">
     Found this useful?
     <br />
 Offline version coming soon!™
 </footer>
+<script src="app.js"></script>
 <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bootstrap/dist/js/popper.min.js"></script>
-<script src="app.js"></script>
 </body>
 </html>
